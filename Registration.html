@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration Form</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position:relative ;
+    bottom: 0;
+    width: 100%;
+  }
+  .container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="date"],
+  select {
+    width: calc(100% - 12px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  #a{
+    font-size: 40px;
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Registration Form</h1>
+</div>
+
+<div class="container">
+  <form action="#" method="post">
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname" required>
+    
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lname" required>
+    
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob" required>
+    
+    <label for="city">City:</label>
+    <select id="city" name="city" required>
+      <option value="">Pune</option>
+      <option value="ny">Mumbai</option>
+      <option value="la">Chennai</option>
+      <option value="lon">Banglore</option>
+      <option value="lon">Hydrabad</option>
+      <option value="lon">Delhi</option>
+    </select>
+    <div align="center">
+    <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+
+<div class="footer">
+  <p id="a"><span>&#174;</span></p>
+</div>
+
+</body>
+</html>

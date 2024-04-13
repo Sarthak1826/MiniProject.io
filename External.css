@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #138808;
+    color: #fff;
+    padding: 20px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    background-color: #138808;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    
+}
+
+.place{
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.place img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.place h2 {
+    text-align: center;
+    margin-top: 10px;
+    color: #333;
+}
+
+.place p {
+    color: #666;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li img {
+    width: 30px;
+    height: 30px;
+}
+
+.place {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.place:hover {
+    transform: scale(1.1);
+}
+
+.a {
+    margin-left: 10px;
+    font-size: 30px;
+    margin-right: 20px;
+
+}
+
+.b {
+    margin-left: 10px;
+    font-size: 30px;
+    margin-right: 20px;
+
+}
+
+.c {
+    margin-left: 10px;
+    font-size: 30px;
+    margin-right: 20px;
+
+}
+
+.d {
+    margin-left: 10px;
+    font-size: 30px;
+    margin-right: 20px;
+
+}
+
+.e {
+    margin-left: 10px;
+    font-size: 30px;
+    margin-right: 20px;
+
+}
+
+.f {
+    margin-left: 10px;
+    font-size: 30px;
+    margin-right: 20px;
+
+}
+
+.g {
+    margin-left: 10px;
+    font-size: 30px;
+    margin-right: 20px;
+
+}
+
+.h {
+    margin-left: 1350px;
+    font-size: 35px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.logo {
+    margin-left: 800px;
+    position: absolute;
+    margin-top: -16px;
+
+}
+.link{
+    color: #333;
+}
